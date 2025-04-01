@@ -1,6 +1,8 @@
 import express from "express";
 import dotenv from "dotenv";
 import cors from "cors";
+import mongoose from "mongoose";
+import userRoutes from "./routes/user.route.js";
 
 dotenv.config();
 
@@ -24,6 +26,25 @@ app.get("/", (req, res) => {
   res.send("hello world");
 });
 
-app.listen(port, () => {
-  console.log(`server is running on port ${port}`);
-});
+app.use("/api/users", userRoutes);
+
+//db connection
+(async () => {
+  try {
+    app.listen(port, (req, res) => {
+      console.log(`server is running on port ${port}`);
+    });
+
+    await mongoose
+      .connect(`${process.env.MONGO_URI}`)
+      .then(() => console.log("connected to mongoDB"));
+
+    app.on("error", () => {
+      console.log("error connecting to DataBase");
+      throw error;
+    });
+  } catch (error) {
+    console.error(error);
+    throw error;
+  }
+})();
