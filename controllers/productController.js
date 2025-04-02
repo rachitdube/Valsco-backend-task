@@ -151,4 +151,25 @@ const deleteProduct = asyncHandler(async (req, res) => {
   }
 });
 
-export { createProduct, updateProduct, deleteProduct };
+const getProductById = asyncHandler(async(req,res)=>{
+ try {
+  const product = await Products.findById(req.params.id)
+  if(product){
+    res.status(200).json({
+      success:true,
+      product
+    })
+  }
+  else{
+    res.status(404).json({
+      success:false,
+      message:"Product not found"
+    })
+  }
+ } catch (error) {
+  console.error(error);
+  throw new ApiError(500, "Internal server error", error);
+ }
+})
+
+export { createProduct, updateProduct, deleteProduct, getProductById };

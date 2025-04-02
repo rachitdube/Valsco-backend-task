@@ -103,4 +103,6 @@ const getUserProfile = asyncHandler(async (req, res) => {
   res.json(req.user);
 });
 
+
+
 export { getUserProfile };
