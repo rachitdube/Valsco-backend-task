@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "start": "nodemon server.js",
-    "build": "node server.js"
+    "build": "node server.js",
+    "seed": "node seeder.js"
   },
   "author": "rachit",
   "license": "ISC",

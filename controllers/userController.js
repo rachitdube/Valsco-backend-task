@@ -1,6 +1,7 @@
 import { asyncHandler } from "../src/utils/asyncHandler.js";
 import User from "../models/user.model.js";
 import jwt from "jsonwebtoken";
+import ApiError from "../../../Vidit/src/utils/ApiError.js";
 
 //register user
 export const registerUser = asyncHandler(async (req, res) => {
@@ -8,9 +9,10 @@ export const registerUser = asyncHandler(async (req, res) => {
   try {
     let user = await User.findOne({ email });
     if (user)
-      return res
-        .status(400)
-        .json({ message: "User with same email already exists" });
+      throw new ApiError(
+        400,
+        "User already exists with this email, please login instead"
+      );
     user = new User({ name, email, password });
     await user.save();
 
@@ -45,7 +47,7 @@ export const registerUser = asyncHandler(async (req, res) => {
     );
   } catch (error) {
     console.error(error);
-    res.status(500).json({ message: "Internal server error" });
+    throw new ApiError(500, "Internal server error", error);
   }
 });
 
@@ -55,9 +57,7 @@ export const loginUser = asyncHandler(async (req, res) => {
   try {
     const user = await User.findOne({ email });
     if (!user)
-      return res
-        .status(400)
-        .json({ message: "user not found please register first" });
+      throw new ApiError(400, "User not found with this email please register");
     const isMatch = await user.comparePassword(password);
     if (!isMatch)
       return res.status(400).json({ message: "Invalid credentials" });
@@ -93,6 +93,14 @@ export const loginUser = asyncHandler(async (req, res) => {
     );
   } catch (error) {
     console.error(error);
-    res.status(500).json({ message: "Internal server error" });
+    throw new ApiError(500, "Internal server error", error);
   }
 });
+
+//get logged user profile
+//this route will be protected
+const getUserProfile = asyncHandler(async (req, res) => {
+  res.json(req.user);
+});
+
+export { getUserProfile };
