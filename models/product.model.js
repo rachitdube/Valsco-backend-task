@@ -44,7 +44,7 @@ const productSchema = new mongoose.Schema(
       type: [String],
       required: true,
     },
-    collection: {
+    collections: {
       type: String,
       required: true,
     },
@@ -53,7 +53,7 @@ const productSchema = new mongoose.Schema(
     },
     gender: {
       type: String,
-      enum: ["Mens", "Womens", "Unisex"],
+      enum: ["mens", "womens", "unisex"],
       required: true,
     },
     images: [

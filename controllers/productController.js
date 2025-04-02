@@ -1,4 +1,3 @@
-import { asyncHandler } from "../src/utils/asyncHandler";
 import Product from "../models/product.model.js";
 import { asyncHandler } from "../src/utils/asyncHandler.js";
 import ApiError from "../src/utils/ApiError.js";
@@ -16,7 +15,7 @@ const createProduct = asyncHandler(async (req, res) => {
       brand,
       sizes,
       colors,
-      collection,
+      collections,
       material,
       gender,
       images,
@@ -38,7 +37,7 @@ const createProduct = asyncHandler(async (req, res) => {
       brand,
       sizes,
       colors,
-      collection,
+      collections,
       material,
       gender,
       images,
@@ -75,7 +74,7 @@ const updateProduct = asyncHandler(async (req, res) => {
       brand,
       sizes,
       colors,
-      collection,
+      collections,
       material,
       gender,
       images,
@@ -100,7 +99,7 @@ const updateProduct = asyncHandler(async (req, res) => {
       product.brand = brand || product.brand;
       product.sizes = sizes || product.sizes;
       product.colors = colors || product.colors;
-      product.collection = collection || product.collection;
+      product.collections = collections || product.collections;
       product.material = material || product.material;
       product.gender = gender || product.gender;
       product.images = images || product.images;

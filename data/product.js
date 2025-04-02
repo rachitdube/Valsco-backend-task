@@ -15,7 +15,7 @@ const products = [
     colors: ["Red", "Blue", "Yellow"],
     collections: "Business Casual",
     material: "Cotton",
-    gender: "Men",
+    gender: "mens",
     images: [
       {
         url: "https://picsum.photos/500/500?random=39",
@@ -43,7 +43,7 @@ const products = [
     colors: ["Black", "Navy Blue", "Burgundy"],
     collections: "Formal Wear",
     material: "Cotton Blend",
-    gender: "Men",
+    gender: "mens",
     images: [
       {
         url: "https://picsum.photos/500/500?random=41",
@@ -71,7 +71,7 @@ const products = [
     colors: ["Light Blue", "Dark Wash"],
     collections: "Casual Wear",
     material: "Denim",
-    gender: "Men",
+    gender: "mens",
     images: [
       {
         url: "https://picsum.photos/500/500?random=43",
@@ -99,7 +99,7 @@ const products = [
     colors: ["Tropical Print", "Navy Palms"],
     collections: "Vacation Wear",
     material: "Viscose",
-    gender: "Men",
+    gender: "mens",
     images: [
       {
         url: "https://picsum.photos/500/500?random=45",
@@ -127,7 +127,7 @@ const products = [
     colors: ["White", "Gray"],
     collections: "Business Wear",
     material: "Cotton",
-    gender: "Men",
+    gender: "mens",
     images: [
       {
         url: "https://picsum.photos/500/500?random=47",
@@ -155,7 +155,7 @@ const products = [
     colors: ["White", "Navy", "Red"],
     collections: "Casual Wear",
     material: "Cotton",
-    gender: "Men",
+    gender: "mens",
     images: [
       {
         url: "https://picsum.photos/500/500?random=3",
@@ -183,7 +183,7 @@ const products = [
     colors: ["Black", "Gray"],
     collections: "Streetwear",
     material: "Cotton",
-    gender: "Men",
+    gender: "mens",
     images: [
       {
         url: "https://picsum.photos/500/500?random=5",
@@ -207,7 +207,7 @@ const products = [
     colors: ["Heather Gray", "Olive", "Black"],
     collections: "Casual Wear",
     material: "Cotton Blend",
-    gender: "Men",
+    gender: "mens",
     images: [
       {
         url: "https://picsum.photos/500/500?random=6",
@@ -231,7 +231,7 @@ const products = [
     colors: ["Charcoal", "Dark Green", "Navy"],
     collections: "Winter Essentials",
     material: "Cotton",
-    gender: "Men",
+    gender: "mens",
     images: [
       {
         url: "https://picsum.photos/500/500?random=7",
@@ -255,7 +255,7 @@ const products = [
     colors: ["White", "Black", "Navy"],
     collections: "Basics",
     material: "Cotton",
-    gender: "Men",
+    gender: "mens",
     images: [
       {
         url: "https://picsum.photos/500/500?random=8",
@@ -279,7 +279,7 @@ const products = [
     colors: ["Black", "Gray", "Navy"],
     collections: "Casual Collection",
     material: "Cotton Blend",
-    gender: "Men",
+    gender: "mens",
     images: [
       {
         url: "https://picsum.photos/500/500?random=9",
@@ -303,7 +303,7 @@ const products = [
     colors: ["Olive", "Black"],
     collections: "Urban Collection",
     material: "Cotton",
-    gender: "Men",
+    gender: "mens",
     images: [
       {
         url: "https://picsum.photos/500/500?random=10",
@@ -327,7 +327,7 @@ const products = [
     colors: ["Gray", "Charcoal", "Blue"],
     collections: "Lounge Collection",
     material: "Fleece",
-    gender: "Men",
+    gender: "mens",
     images: [
       {
         url: "https://picsum.photos/500/500?random=11",
@@ -351,7 +351,7 @@ const products = [
     colors: ["Dark Blue", "Light Blue"],
     collections: "Denim Collection",
     material: "Denim",
-    gender: "Men",
+    gender: "mens",
     images: [
       {
         url: "https://picsum.photos/500/500?random=12",
@@ -375,7 +375,7 @@ const products = [
     colors: ["Beige", "Navy", "Black"],
     collections: "Smart Casual Collection",
     material: "Cotton",
-    gender: "Men",
+    gender: "mens",
     images: [
       {
         url: "https://picsum.photos/500/500?random=13",
@@ -399,7 +399,7 @@ const products = [
     colors: ["Black", "Red", "Blue"],
     collections: "Activewear Collection",
     material: "Polyester",
-    gender: "Men",
+    gender: "mens",
     images: [
       {
         url: "https://picsum.photos/500/500?random=14",
@@ -423,7 +423,7 @@ const products = [
     colors: ["Gray", "Black"],
     collections: "Office Wear",
     material: "Polyester",
-    gender: "Men",
+    gender: "mens",
     images: [
       {
         url: "https://picsum.photos/500/500?random=15",
@@ -447,7 +447,7 @@ const products = [
     colors: ["Olive", "Brown", "Black"],
     collections: "Street Style Collection",
     material: "Cotton",
-    gender: "Men",
+    gender: "mens",
     images: [
       {
         url: "https://picsum.photos/500/500?random=16",
@@ -471,7 +471,7 @@ const products = [
     colors: ["Gray", "Black", "Navy"],
     collections: "Lounge Collection",
     material: "Fleece",
-    gender: "Men",
+    gender: "mens",
     images: [
       {
         url: "https://picsum.photos/500/500?random=17",
@@ -495,7 +495,7 @@ const products = [
     colors: ["Black", "Navy"],
     collections: "Formal Collection",
     material: "Polyester",
-    gender: "Men",
+    gender: "mens",
     images: [
       {
         url: "https://picsum.photos/500/500?random=18",
@@ -519,7 +519,7 @@ const products = [
     colors: ["Dark Blue", "Black", "Light Blue"],
     collections: "Denim Collection",
     material: "Denim",
-    gender: "Women",
+    gender: "womens",
     images: [
       {
         url: "https://picsum.photos/500/500?random=19",
@@ -543,7 +543,7 @@ const products = [
     colors: ["Beige", "Black", "White"],
     collections: "Formal Collection",
     material: "Polyester",
-    gender: "Women",
+    gender: "womens",
     images: [
       {
         url: "https://picsum.photos/500/500?random=20",
@@ -567,7 +567,7 @@ const products = [
     colors: ["Black", "Gray", "Navy"],
     collections: "Activewear Collection",
     material: "Cotton Blend",
-    gender: "Women",
+    gender: "womens",
     images: [
       {
         url: "https://picsum.photos/500/500?random=21",
@@ -591,7 +591,7 @@ const products = [
     colors: ["Pink", "Navy", "Black"],
     collections: "Spring Collection",
     material: "Polyester",
-    gender: "Women",
+    gender: "womens",
     images: [
       {
         url: "https://picsum.photos/500/500?random=22",
@@ -615,7 +615,7 @@ const products = [
     colors: ["White", "Beige", "Light Blue"],
     collections: "Summer Collection",
     material: "Linen Blend",
-    gender: "Women",
+    gender: "womens",
     images: [
       {
         url: "https://picsum.photos/500/500?random=23",
@@ -639,7 +639,7 @@ const products = [
     colors: ["Black", "Gray", "Pink"],
     collections: "Loungewear Collection",
     material: "Cotton Blend",
-    gender: "Women",
+    gender: "womens",
     images: [
       {
         url: "https://picsum.photos/500/500?random=24",
@@ -663,7 +663,7 @@ const products = [
     colors: ["White", "Khaki", "Blue"],
     collections: "Summer Collection",
     material: "Cotton",
-    gender: "Women",
+    gender: "womens",
     images: [
       {
         url: "https://picsum.photos/500/500?random=25",
@@ -687,7 +687,7 @@ const products = [
     colors: ["Blue", "Black", "White"],
     collections: "Denim Collection",
     material: "Denim",
-    gender: "Women",
+    gender: "womens",
     images: [
       {
         url: "https://picsum.photos/500/500?random=26",
@@ -711,7 +711,7 @@ const products = [
     colors: ["Black", "White", "Olive"],
     collections: "Casual Collection",
     material: "Polyester",
-    gender: "Women",
+    gender: "womens",
     images: [
       {
         url: "https://picsum.photos/500/500?random=27",
@@ -735,7 +735,7 @@ const products = [
     colors: ["Navy", "Black", "Gray"],
     collections: "Formal Collection",
     material: "Wool Blend",
-    gender: "Women",
+    gender: "womens",
     images: [
       {
         url: "https://picsum.photos/500/500?random=28",
@@ -759,7 +759,7 @@ const products = [
     colors: ["Beige", "White"],
     collections: "Knits Collection",
     material: "Cotton Blend",
-    gender: "Women",
+    gender: "womens",
     images: [
       {
         url: "https://picsum.photos/500/500?random=29",
@@ -783,7 +783,7 @@ const products = [
     colors: ["White", "Pink"],
     collections: "Summer Collection",
     material: "Viscose",
-    gender: "Women",
+    gender: "womens",
     images: [
       {
         url: "https://picsum.photos/500/500?random=30",
@@ -807,7 +807,7 @@ const products = [
     colors: ["Black", "White", "Gray"],
     collections: "Essentials",
     material: "Cotton",
-    gender: "Women",
+    gender: "womens",
     images: [
       {
         url: "https://picsum.photos/500/500?random=31",
@@ -831,7 +831,7 @@ const products = [
     colors: ["Red", "White", "Blue"],
     collections: "Evening Collection",
     material: "Polyester",
-    gender: "Women",
+    gender: "womens",
     images: [
       {
         url: "https://picsum.photos/500/500?random=32",
@@ -855,7 +855,7 @@ const products = [
     colors: ["Black", "White"],
     collections: "Lingerie-Inspired",
     material: "Silk Blend",
-    gender: "Women",
+    gender: "womens",
     images: [
       {
         url: "https://picsum.photos/500/500?random=33",
@@ -879,7 +879,7 @@ const products = [
     colors: ["White", "Black"],
     collections: "Urban Collection",
     material: "Cotton",
-    gender: "Women",
+    gender: "womens",
     images: [
       {
         url: "https://picsum.photos/500/500?random=34",
@@ -903,7 +903,7 @@ const products = [
     colors: ["Gray", "Pink", "Brown"],
     collections: "Fall Collection",
     material: "Cotton Blend",
-    gender: "Women",
+    gender: "womens",
     images: [
       {
         url: "https://picsum.photos/500/500?random=35",
@@ -927,7 +927,7 @@ const products = [
     colors: ["White", "Navy", "Lavender"],
     collections: "Summer Collection",
     material: "Viscose",
-    gender: "Women",
+    gender: "womens",
     images: [
       {
         url: "https://picsum.photos/500/500?random=36",
@@ -951,7 +951,7 @@ const products = [
     colors: ["White", "Light Blue", "Black"],
     collections: "Office Collection",
     material: "Cotton",
-    gender: "Women",
+    gender: "womens",
     images: [
       {
         url: "https://picsum.photos/500/500?random=37",
@@ -975,7 +975,7 @@ const products = [
     colors: ["Red", "Black", "White"],
     collections: "Evening Collection",
     material: "Polyester",
-    gender: "Women",
+    gender: "womens",
     images: [
       {
         url: "https://picsum.photos/500/500?random=38",
